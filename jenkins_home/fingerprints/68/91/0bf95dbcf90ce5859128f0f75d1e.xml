@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2015-10-19 21:14:07.322 UTC</timestamp>
+  <md5sum>68910bf95dbcf90ce5859128f0f75d1e</md5sum>
+  <fileName>org.slf4j:slf4j-api-1.7.12.jar</fileName>
+  <usages>
+    <entry>
+      <string>DEMO-GATLING-ASSERTIONS-SCRIPT/com.gatling.demo:gatling-demo-script</string>
+      <ranges>16</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING-GET-BENCHMARKING-RESULTS/com.gatling.demo:gatling-demo-script</string>
+      <ranges>19-24,26-31</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING</string>
+      <ranges>26-29,31,34</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING-GET-BENCHMARKING-RESULTS</string>
+      <ranges>19-24,26-31</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING-ASSERTIONS-SCRIPT</string>
+      <ranges>16</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING/com.gatling.demo:gatling-demo-script</string>
+      <ranges>26-29,31,34</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING-BENCHMARKING/com.gatling.demo:gatling-demo-script</string>
+      <ranges>1-2,4-9</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING-BENCHMARKING</string>
+      <ranges>1-2,4-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

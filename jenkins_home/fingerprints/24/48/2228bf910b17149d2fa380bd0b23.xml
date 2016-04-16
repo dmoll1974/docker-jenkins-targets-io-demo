@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2015-10-21 07:44:06.842 UTC</timestamp>
+  <original>
+    <name>DEMO-GATLING/com.gatling.demo:gatling-demo-script</name>
+    <number>34</number>
+  </original>
+  <md5sum>24482228bf910b17149d2fa380bd0b23</md5sum>
+  <fileName>com.gatling.demo:gatling-demo-script-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>DEMO-GATLING</string>
+      <ranges>34</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING/com.gatling.demo:gatling-demo-script</string>
+      <ranges>34</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

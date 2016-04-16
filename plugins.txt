@@ -1,0 +1,13 @@
+scm-api:0.2
+git:2.4.0
+git-client:1.19.0
+token-macro:1.5.1
+run-condition:1.0
+parameterized-trigger:2.25
+matrix-project:1.6
+envinject:1.90
+maven-plugin:2.12.1
+conditional-buildstep:1.3.3
+copyartifact:1.31
+jenkins-multijob-plugin:1.18
+

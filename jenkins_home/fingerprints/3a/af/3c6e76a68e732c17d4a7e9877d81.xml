@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2015-10-19 21:14:07.282 UTC</timestamp>
+  <md5sum>3aaf3c6e76a68e732c17d4a7e9877d81</md5sum>
+  <fileName>com.typesafe:config-1.2.1.jar</fileName>
+  <usages>
+    <entry>
+      <string>DEMO-GATLING-ASSERTIONS-SCRIPT/com.gatling.demo:gatling-demo-script</string>
+      <ranges>16</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING-GET-BENCHMARKING-RESULTS/com.gatling.demo:gatling-demo-script</string>
+      <ranges>19-24,26-31</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING</string>
+      <ranges>26-29,31,34</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING-GET-BENCHMARKING-RESULTS</string>
+      <ranges>19-24,26-31</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING-ASSERTIONS-SCRIPT</string>
+      <ranges>16</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING/com.gatling.demo:gatling-demo-script</string>
+      <ranges>26-29,31,34</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING-BENCHMARKING/com.gatling.demo:gatling-demo-script</string>
+      <ranges>1-2,4-9</ranges>
+    </entry>
+    <entry>
+      <string>DEMO-GATLING-BENCHMARKING</string>
+      <ranges>1-2,4-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
