@@ -17,5 +17,7 @@ COPY ./jenkins_home/jenkins.mvn.GlobalMavenConfig.xml  usr/share/jenkins/ref/jen
 
 COPY ./jenkins_home/hudson.tasks.Maven.xml  usr/share/jenkins/ref/hudson.tasks.Maven.xml
 
+COPY ./jenkins_home/jenkins.model.JenkinsLocationConfiguration.xml  usr/share/jenkins/ref/jenkins.model.JenkinsLocationConfiguration.xml
+
 ENV JAVA_OPTS="-Xmx2024m"
 
