@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.2">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.5">
+    <script>node {
+   
+   def testRunId = env.JOB_NAME + &quot;-&quot; + env.BUILD_NUMBER
+   def buildUrl = env.BUILD_URL
+   
+   // Mark the code checkout &apos;stage&apos;....
+   
+   stage &apos;Checkout&apos;
+
+   // Get script from a GitHub repository
+   git url: &apos;https://github.com/dmoll1974/targets-io-demo-script-gatling.git&apos;
+
+   // Get the maven tool.
+   // ** NOTE: This &apos;M3&apos; maven tool must be configured
+   // **       in the global configuration.           
+   def mvnHome = tool &apos;M3&apos;
+
+   
+   stage &apos;Execute load test&apos;
+   
+    // Run the test
+   sh &quot;${mvnHome}/bin/mvn clean install gatling:execute -Pacc -Pnightly -DtestRunId=$testRunId -DbuildResultsUrl=$buildUrl&quot;
+   
+   // Assert results
+   stage &apos;Assert results&apos;
+   
+   sh &quot;${mvnHome}/bin/mvn clean install gatling:execute -Passertions -DtestRunId=$testRunId&quot;
+  
+   
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+</flow-definition>
